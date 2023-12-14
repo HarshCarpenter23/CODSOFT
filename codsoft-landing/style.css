@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+.header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    height: 90px;
+}
+
+.nav {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.nav li:last-child {
+    margin-right: 0; 
+}
+
+.logo-img {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    color: #090032;
+    justify-content: center;
+    flex-direction: column;
+    height: 342px;
+    background: #ccffe1;
+    padding: 0px 90px;
+}
+
+.home p {
+    text-align: center;
+    margin: 15px;
+}
+
+.home-btns {
+    margin: 10px;
+}
+
+.read-btn {
+    width: 150px;
+    color: #fff;
+    background: #432ca6;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: #432ca6;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.apply-btn {
+    width: 150px;
+    color: #fff;
+    background: #0d9e47;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: #0d9e47;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.home-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: linear-gradient(to right, #db9534, #2e65cc);
+}
+
+.home-intro p{
+    text-align: justify;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: url(img/about-bg.png) no-repeat;
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+
+.heading {
+    margin-top: 20px;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #090032;
+}
+
+.about-img {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img img {
+    width: 70%;
+    margin-left: 50px;
+
+}
+
+.about-content {
+    text-align: center;
+    width: 600px;
+    margin-right: 100px;
+    color: #090032;
+}
+
+.about-content h3 {
+    font-size: 2.0rem;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem;
+    color: #190a5c;
+}
+
+.btn-box {
+    display: inline-block;
+    width: 300px;
+    background: rgb(1, 1, 159);
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.btn-box a {
+    
+    
+    color: #fff;
+    text-decoration: none;
+}
